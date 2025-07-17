@@ -1,0 +1,21 @@
+Custom order Pyro with a sick paintjob.
+
+0.8 energy multiplier (20% cheaper overall energy costs)
+9.5 max thrust (around 20% faster movement)
+
+Vulcan cannon original spread values
+Vulcan cannon higher stun mult (3)
+Spreadfire original spread values
+Spreadfire now fires homing projectiles
+Spreadfire slightly more energy drain
+Spreadfire slighly lower damage
+Spreadfire lower projectile speed
+Fusion is single barrel only, fires from middle
+Fusion double damage
+Fusion higher stun mult
+Fusion won't have charging sparkles from two barrels at the sides anymore
+Concussion missiles fire 2 per shot
+Concussion missile higher stun mult (2)
+Homing missile higher stun mult (2)
+Homing missile max ammo is 16 instead of 12
+Most missiles also have higher rack ammo

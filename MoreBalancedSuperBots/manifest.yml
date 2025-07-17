@@ -1,0 +1,5 @@
+name: More Balanced Super Bots
+version: 1.0
+supports: [ descent1, descent2 ]
+author: Erenussocrates
+description: Some of the very dangerous superbots in Descent 1 Inferno had some unhinged changes, this mod aims to either revert or  weaken some of those changes to make them feel closer to vanilla feel.

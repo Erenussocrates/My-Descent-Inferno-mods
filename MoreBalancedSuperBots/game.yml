@@ -1,0 +1,69 @@
+Robots:
+  - id: 5
+    Name: Cloaked Driller
+    DevName: Cloak Vulcan
+    CircleDistance: 100 # sniper
+    Mass: 5.5 # Heavier than regular due to cloaking device
+    Drag: 0.03
+    SuppressChance: .05
+    ChaseChance: .8
+    ChaseDistance: 60 # Only chase if the player gets close
+    Score: 1000 # Was 600, less than the regular driller
+    Curiosity: 0.3 # Don't want these moving around too much
+    AimAngle: 20 # Don't let drillers lead very much for balance reasons
+    Aim: 200 # Make slightly inaccurate
+    GetBehind: 1
+    AmbushDistance: 80
+    StunResist: 0.3 # new with the mod
+  - id: 15
+    Name: Fusion Hulk
+    DevName: Miniboss
+    Weapon: robot fusion
+    FireDelay: [ 3, 2, 2.5, 2, 1.5 ] # in inferno, it was 2.5, 2, 1.5, 1, 0.5
+    Shots: [ 2, 2, 2, 2, 2 ] # was 1, 1, 2, 2, 3
+    TurnTime: [ 0.8, 0.7, 0.6, 0.5, 0.4 ]
+    Mass: 20 # was 30
+    Multishot: 2
+    DeathRoll: 3
+    ExplosionStrength: 15
+    AlertRadius: 160 # Miniboss alert radius
+    ChaseChance: 0 # Hold position
+    ChaseDistance: 0 # Don't chase
+    SuppressChance: 0.4
+    Curiosity: 0 # Don't investigate sounds
+    StunResist: 1.6 # immune to stuns from concussion missiles
+    AimAngle: 30
+    ChargeTime: 1
+    # DeathRollSound: 185 # d1
+  - id: 16
+    Name: Red Hulk
+    DevName: Super Mech
+    CircleDistance: 60
+    Multishot: 1
+    Mass: 7
+    ChaseChance: 0
+    Curiosity: 0.05 # Very rarely move to investigate sounds
+    SuppressChance: 0.1 # was 0.15 in inferno
+    BurstDelay: 0.5 # was 0.4 in inferno
+    # SeeSound: 177 # people don't like the spider cry
+    AimAngle: 15
+    AmbushDistance: 200
+    ChaseDistance: 40 # Only chase if the player gets very close
+    HitPoints: 270 # Was 325 in inferno
+    StunResist: 0.4 # new with the mod
+  - id: 19 
+    Name: Class 1 Driller
+    DevName: Vulcan Guy
+    Weapon: driller vulcan
+    CircleDistance: 100 # sniper
+    Mass: 5
+    Drag: 0.03
+    SuppressChance: .2
+    ChaseChance: 1 # they angy
+    ChaseDistance: 100 # Only chase if the player gets close
+    Score: 900 # Was 1000, but are quite flimsy. Moved down to make cloak drillers 1000.
+    AimAngle: 20 # Don't let drillers lead very much for balance reasons
+    Aim: 200 # Make slightly inaccurate
+    GetBehind: 1
+    StunResist: 0.3 # it was also 0.5 in inferno
+    AmbushDistance: 80

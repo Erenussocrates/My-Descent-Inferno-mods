@@ -1,0 +1,303 @@
+Weapons:
+  - id: 11
+    Name: vulcan
+    Behavior: vulcan
+    # FireSound: barrett-taper
+    # FireSound: MG4
+    # FireSound: L7A2-behind
+    # FireSound: L110A2-LMG
+    FireVolume: 1.0
+    Decal: BulletHole01
+    DecalRadius: 1
+    ExplosionTexture: vaussimpact
+    ExplosionSize: 0.6
+    ExplosionTime: 0.4
+    Damage: 7.5 # Was 4
+    Speed: 600 # Was 500
+    PlayerDamageScale: 0.57 # Adjust so damage equals 4 due to drillers
+    Spread: 1.8 # 1.0 in inferno
+    AmmoUsage: 10 # Was around 14
+    ExplosionSound: #WpnVauseHitRicB
+    LightRadius: 3.75
+    ExplosionColor: 1.0, 0.36, 0.0, 1.2
+    Model: -1
+    FlashColor: 1, 0.6, .3, 1
+    StunMult: 3 # 2 in inferno
+    Size: 0.75
+    Tracer: vulcan tracer
+    # RicochetChance: 0.5
+    # RicochetAngle: 30
+    # RicochetMetalMultiplier: 1.5
+    # Bounces: 2
+    
+  - id: 12 
+    Name: spreadfire
+    HudName: spread
+    # Behavior: shotgun
+    # FireCount: 5
+    Behavior: spreadfire
+    Glow: .6, .6, 1, 12
+    ExplosionTexture: EMDspinnerHit
+    ExplosionSize: 1.3
+    ExplosionTime: 0.4
+    ExplosionSound: ExpEMDHitB
+    LightRadius: 14
+    LightColor: 0.3, 0.3, 0.75, 1
+    Mass: 0.05
+    Damage: 11 # 12 in inferno
+    Speed: 170 # 300 in inferno
+    Lifetime: 10
+    # DeathSparks: spreadfire death sparks
+    Size: .75 # Was 0.5. Increase size to increase area and feel more powerful
+    Spread: 3.6 # 3.3 in inferno
+    FlashColor: 1, 1, 1, 1
+    EnergyUsage: 0.6 # 0.5 in inferno
+    IsHoming: true # new in mod
+    HomingFov: 35 # new in mod
+    HomingDistance: 150 # new in mod
+    HomingTurnRate: 150 # new in mod
+
+  - id: 14
+    Name: fusion
+    Chargable: 1
+    Decal: scorchC
+    DecalRadius: 3.25
+    Glow: .3, 0, 1, 35
+    LightColor: .6, .1, 1, 4
+    FlashColor: .6, .1, 1, 4
+    EnergyUsage: 2
+    Model: 66
+    ModelName: FusionBlobNewJ.OOF
+    ModelScale: 1 # 0.85 # D3 fusion is huge
+    RotationalVelocity: 0, 0, 1.5708
+    Size: 2.1
+    ExplosionTexture: FusionHit
+    ExplosionSize: 4.6
+    ExplosionTime: 0.4
+    LightRadius: 20
+    Mass: 2
+    Behavior: fusion
+    StunMult: 1.1 # 0.4 in inferno
+    Recoil: 100
+    Damage: 120 # 60 in inferno
+    Speed: 150
+    Piercing: 1
+
+  - id: 8
+    Name: concussion missile
+    HudName: "concsn\nmissile"
+    StunMult: 2 # It's called a concussion missile, it should stun things
+    Speed: 130 # Original speed of 90 feels weak. Mercuries are 400. Lasers are 120
+    Decal: scorchC
+    DecalRadius: 4
+    LightRadius: 14
+    LightColor: 1, .5, .25, 2
+    ExplosionColor: 1, 0.25, 0.0, 2
+    FlashColor: 1, .5, .25, 3
+    Size: 1.5 # was 1.5
+    Mass: 1.0 # was 1
+    StunMult: 2 # new in mod
+
+  - id: 15
+    Name: homing missile
+    HudName: "homing\nmissile"
+    Decal: scorchC
+    StunMult: 1.5
+    DecalRadius: 4
+    LightRadius: 14
+    LightColor: 0.25, 0.25, 0.75, 2
+    ExplosionColor: 1, 0.25, 0.0, 10
+    FlashColor: 1, 0.25, 0.0, 2
+    Size: 1 # was 1.5
+    HomingFov: 45 # was 48.6 (dot = .75)
+    HomingDistance: 300 # Scan for targets in this range
+    HomingTurnRate: 300
+    StunMult: 2 # new in mod
+
+Effects:
+  Sparks:
+    - Name: fusion_charge
+      Color: .6, 0, 1, 20
+      Count: 8
+      Duration: [ .45, .5 ]
+      Drag: 0.01
+      Velocity: 0
+      FadeTime: .4
+      Texture: tracer
+      Width: 0 # 0.1 in inferno
+      VelocitySmear: 0.05
+      UseWorldGravity: 0
+      UsePointGravity: 1
+      PointGravityStrength: 23 # How much velocity towards the point
+      PointGravityOffset: 0, 0, 2.5 # Starting offset for point gravity
+      PointGravityVelocity: 0, 0, -10 # Moves the center of gravity relative to start location
+      SpawnRadius: 2
+      Offset: 0, 0, -1.6 # Particle spawn offset
+      Relative: 1 # Move the effect with the parent
+
+Ships:
+  - Name: Pyro-K1N3T1K
+    Model: 43
+    ExplosionVClip: 58
+    Mass: 4
+    Drag: 0.033
+    MaxThrust: 9.5 # 7.8 in inferno
+    MaxRotationalThrust: 0.14
+    TurnRollScale: 1.9332 # FixToFloat(0x4ec4) * 2PI
+    TurnRollRate: 0.7854 # FixToFloat(0x2000) * 2PI
+    DamageTaken: 1.0 # Multiplier on damage taken
+    EnergyMultiplier: 0.8 # 1.0 in inferno
+    Gunpoints: # NOTE: these gunpoints are overridden if a custom model containing gunpoints is loaded!
+      - 2.22798157, -0.911682129, -0.545593262
+      - -2.25032043, -0.913879395, -0.525360107
+      - 3.38757324, -1.80775452, -2.26136780
+      - -3.41001892, -1.80378723, -2.26290894 
+      - 2.33499146, -0.00282287598, 1.39472961
+      - -2.39318848, -0.00282287598, 1.39472961
+      - 0.0245361328, -1.33763123, -2.82254028
+      - -0.0245361328, -1.33763123, 2.91175842
+    Weapons: # NOTE: The order is significant and must equal 20 weapons
+      - Weapon: Laser
+        EnergyUsage: 0.25 # Lower energy cost to make early game less tedious. Quads double the cost.
+        QuadGunpoints: [ 0, 1, 2, 3 ]
+        Firing:
+          - Delay: 0.25
+            Gunpoints: [ 0, 1 ]
+      - Weapon: Vulcan
+        AmmoUsage: 10 # Was around 14
+        Ammo: 10000
+        Firing:
+          - Delay: 0.05
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Spreadfire
+        EnergyUsage: 0.5
+        Firing:
+          - Delay: 0.2
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Plasma
+        EnergyUsage: 0.5
+        SequenceResetTime: 0.25 # Resets the firing sequence after this long of not firing
+        Firing:
+          # - Delay: 0.15 # original
+          #   Gunpoints: [ 0, 1 ]
+          # 0.1 * 5 + 0.4 = 0.9 total delay 0.9 / 6 = 0.15 which is the original delay
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: .4 # overheat
+            Gunpoints: [ 0, 1 ]
+      - Weapon: Fusion
+        EnergyUsage: 2 # Game was hard coded to subtract 2 cost on charge start
+        Firing:
+          - Delay: 1
+            Gunpoints: 6 # [ 0, 1 ] in inferno
+      - Weapon: SuperLaser
+        EnergyUsage: 0.25
+        QuadGunpoints: [ 0, 1, 2, 3 ]
+        Firing:
+          - Delay: 0.25
+            Gunpoints: [ 0, 1 ]
+      - Weapon: Gauss
+        Ammo: 10000
+        AmmoType: 1 # Share with vulcan
+        Firing:
+          - Delay: 0.15
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Helix
+        EnergyUsage: 0.75
+        Firing:
+          - Delay: 0.15
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Phoenix
+        EnergyUsage: 0.5 # Halve cost
+        Firing:
+          - Delay: 0.12
+            Gunpoints: [0, 1] 
+      - Weapon: Omega
+        Ammo: 4 # Charge capacity
+        #AmmoType: 9
+        #AmmoUsage: 10
+        EnergyUsage: 0.05 # Charge capacity per shot
+        Firing:
+          # - Gunpoints: 1 # Left side only
+          - Gunpoints: [2,3] # Left side only
+            Delay: 0.0625
+      - Weapon: Concussion
+        AmmoUsage: 2 # new in mod
+        Ammo: 20
+        RackAmmo: 40 # 32 in inferno
+        Firing:
+          - Delay: 0.5
+            Gunpoints: [4, 5]
+          #- Delay: 0.5
+          #  Gunpoints: 4
+          #- Delay: 0.5
+          #  Gunpoints: 5
+      - Weapon: Homing
+        Ammo: 16 # 12 in inferno
+        RackAmmo: 32 # 20 in inferno
+        Firing:
+          - Delay: 0.5
+            Gunpoints: 4
+          - Delay: 0.5
+            Gunpoints: 5
+      - Weapon: ProxMine
+        Ammo: 12 # Was 10
+        RackAmmo: 24 # 20 in inferno
+        Firing:
+          - Delay: 0.25
+            Gunpoints: 7 # rear gunpoint
+      - Weapon: Smart
+        Ammo: 5
+        RackAmmo: 10 # 8 in inferno
+        Firing:
+          - Delay: 0.5
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Mega
+        Ammo: 5
+        RackAmmo: 8
+        Hazardous: 1 # Enables warning behavior when selecting this weapon (sound, trigger lock)
+        Firing:
+          - Delay: 1
+            Gunpoints: 6 # center gunpoint
+      - Weapon: Flash
+        Ammo: 20
+        RackAmmo: 40 #32 in inferno
+        Firing:
+          - Delay: 0.6
+            Gunpoints: 4
+          - Delay: 0.6
+            Gunpoints: 5
+      - Weapon: Guided
+        Ammo: 20
+        Firing:
+          - Delay: 0.25
+            Gunpoints: 6 # center gunpoint, the original behavior was to alternate
+      - Weapon: SmartMine
+        Ammo: 16 # Was 15. Should this be 12 to match regular mines?
+        RackAmmo: 24
+        Firing:
+          - Delay: 0.25
+            Gunpoints: 7
+      - Weapon: Mercury
+        Ammo: 12 # Was 10
+        RackAmmo: 20
+        Firing:
+          - Delay: 0.25
+            Gunpoints: 4
+          - Delay: 0.25
+            Gunpoints: 5
+      - Weapon: Shaker
+        Ammo: 5 # Was 10. Why? Megas are 5
+        RackAmmo: 8
+        Hazardous: 1
+        Firing:
+          - Delay: 0.25
+            Gunpoints: 6 # center gunpoint
