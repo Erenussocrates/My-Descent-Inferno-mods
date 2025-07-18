@@ -16,7 +16,7 @@ Weapons:
     Speed: 600 # Was 500
     PlayerDamageScale: 0.57 # Adjust so damage equals 4 due to drillers
     Spread: 1.8 # 1.0 in inferno
-    AmmoUsage: 10 # Was around 14
+    AmmoUsage: 12 # 10 in inferno
     ExplosionSound: #WpnVauseHitRicB
     LightRadius: 3.75
     ExplosionColor: 1.0, 0.36, 0.0, 1.2
@@ -164,13 +164,13 @@ Ships:
           - Delay: 0.25
             Gunpoints: [ 0, 1 ]
       - Weapon: Vulcan
-        AmmoUsage: 10 # Was around 14
-        Ammo: 10000
+        AmmoUsage: 12 # 10 in inferno
+        Ammo: 20000 #10000 in inferno
         Firing:
           - Delay: 0.05
             Gunpoints: 6 # center gunpoint
       - Weapon: Spreadfire
-        EnergyUsage: 0.5
+        EnergyUsage: 0.6 #0.5 in inferno
         Firing:
           - Delay: 0.2
             Gunpoints: 6 # center gunpoint
