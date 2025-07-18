@@ -5,6 +5,8 @@ Custom order Pyro with a sick paintjob.
 
 Vulcan cannon original spread values
 Vulcan cannon higher stun mult (3)
+Vulcan cannon original max ammo values
+Vulcan cannon consumes slightly more ammo
 Spreadfire original spread values
 Spreadfire now fires homing projectiles
 Spreadfire slightly more energy drain
