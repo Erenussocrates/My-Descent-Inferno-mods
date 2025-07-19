@@ -141,12 +141,12 @@ Ships:
     ExplosionVClip: 58
     Mass: 4
     Drag: 0.033
-    MaxThrust: 9.5 # 7.8 in inferno
+    MaxThrust: 9.4 # 7.8 in inferno
     MaxRotationalThrust: 0.14
     TurnRollScale: 1.9332 # FixToFloat(0x4ec4) * 2PI
     TurnRollRate: 0.7854 # FixToFloat(0x2000) * 2PI
-    DamageTaken: 1.0 # Multiplier on damage taken
-    EnergyMultiplier: 0.8 # 1.0 in inferno
+    DamageTaken: 1.05 # Multiplier on damage taken
+    EnergyMultiplier: 0.9 # 1.0 in inferno
     Gunpoints: # NOTE: these gunpoints are overridden if a custom model containing gunpoints is loaded!
       - 2.22798157, -0.911682129, -0.545593262
       - -2.25032043, -0.913879395, -0.525360107
