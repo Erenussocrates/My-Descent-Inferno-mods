@@ -1,24 +1,38 @@
 Custom order Pyro with a sick paintjob.
 
+Ship Stats:
 0.9 energy multiplier (10% cheaper overall energy costs)
 9.4 max thrust (20% faster movement speed)
 1.05 damage taken multiplier (takes 5% more damage)
 
-Vulcan cannon original spread values
-Vulcan cannon higher stun mult (3)
-Vulcan cannon 15k instead of 10k max ammo
-Vulcan cannon consumes slightly more ammo
-Spreadfire original spread values
-Spreadfire now fires homing projectiles
-Spreadfire slightly more energy drain
-Spreadfire slighly lower damage
-Spreadfire lower projectile speed
-Fusion is single barrel only, fires from middle
-Fusion double damage
-Fusion higher stun mult
-Fusion won't have charging sparkles from two barrels at the sides anymore
-Concussion missiles fire 2 per shot
-Concussion missile higher stun mult (2)
-Homing missile higher stun mult (2)
-Homing missile max ammo is 16 instead of 12
+Vulcan Cannon:
+Original spread values
+Higher stun mult (3)
+Max ammo is 15k instead of 10k
+Consumes slightly more ammo
+
+Spreadfire Cannon:
+Higher projectile spread
+Now fires homing projectiles
+Slightly more energy drain
+Slighly lower damage (still higher than vanilla)
+Lower projectile speed
+
+Plasma Cannon:
+Now doesn't have an overheat delay, but has slightly lower rate of fire (still higher than vanilla)
+
+Fusion Cannon:
+Now it's single barrel only, fires from middle
+Won't have charging sparkles from two barrels at the sides anymore
+The projectile has double damage
+Higher stun mult
+
+Concussion Missiles:
+Fires 2 per shot
+Higher stun mult (2)
+
+Homing Missiles:
+Max ammo is 16 instead of 12
+Higher stun mult (2)
+
 Most missiles also have higher rack ammo
