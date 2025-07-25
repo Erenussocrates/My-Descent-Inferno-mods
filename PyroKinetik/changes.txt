@@ -22,7 +22,7 @@ Slightly lower fire rate
 Lower projectile speed
 
 Plasma Cannon:
-Now doesn't have an overheat delay, but has slightly lower rate of fire (still higher than vanilla)
+Now fires 3 more volleys until it's overheated
 
 Fusion Cannon:
 Now it's single barrel only, fires from middle
