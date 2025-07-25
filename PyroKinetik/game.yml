@@ -22,7 +22,7 @@ Weapons:
     ExplosionColor: 1.0, 0.36, 0.0, 1.2
     Model: -1
     FlashColor: 1, 0.6, .3, 1
-    StunMult: 6 # 2 in inferno
+    StunMult: 6.88 # 2 in inferno
     Size: 0.75
     Tracer: vulcan tracer
     # RicochetChance: 0.5
