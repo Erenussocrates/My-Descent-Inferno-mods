@@ -12,17 +12,17 @@ Weapons:
     ExplosionTexture: vaussimpact
     ExplosionSize: 0.6
     ExplosionTime: 0.4
-    Damage: 7.5 # Was 4
+    Damage: 4 # 7.5 in inferno
     Speed: 600 # Was 500
     PlayerDamageScale: 0.57 # Adjust so damage equals 4 due to drillers
-    Spread: 1.8 # 1.0 in inferno
-    AmmoUsage: 11 # 10 in inferno
+    Spread: 1.9 # 1.0 in inferno, 1.6 in vanilla
+    AmmoUsage: 15 # 10 in inferno
     ExplosionSound: #WpnVauseHitRicB
     LightRadius: 3.75
     ExplosionColor: 1.0, 0.36, 0.0, 1.2
     Model: -1
     FlashColor: 1, 0.6, .3, 1
-    StunMult: 3 # 2 in inferno
+    StunMult: 6 # 2 in inferno
     Size: 0.75
     Tracer: vulcan tracer
     # RicochetChance: 0.5
@@ -44,8 +44,8 @@ Weapons:
     LightRadius: 14
     LightColor: 0.3, 0.3, 0.75, 1
     Mass: 0.05
-    Damage: 11 # 12 in inferno
-    Speed: 170 # 300 in inferno
+    Damage: 10 # 12 in inferno
+    Speed: 160 # 300 in inferno
     Lifetime: 10
     # DeathSparks: spreadfire death sparks
     Size: .75 # Was 0.5. Increase size to increase area and feel more powerful
@@ -164,15 +164,15 @@ Ships:
           - Delay: 0.25
             Gunpoints: [ 0, 1 ]
       - Weapon: Vulcan
-        AmmoUsage: 11 # 10 in inferno
+        AmmoUsage: 15 # 10 in inferno
         Ammo: 15000 #10000 in inferno
         Firing:
           - Delay: 0.05
-            Gunpoints: 6 # center gunpoint
+            Gunpoints: [ 0, 1 ] # 6 in inferno
       - Weapon: Spreadfire
         EnergyUsage: 0.6 #0.5 in inferno
         Firing:
-          - Delay: 0.2
+          - Delay: 0.25 # 0.2 in inferno
             Gunpoints: 6 # center gunpoint
       - Weapon: Plasma
         EnergyUsage: 0.5
