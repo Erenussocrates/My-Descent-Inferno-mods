@@ -26,8 +26,9 @@ Now fires 3 more volleys until it's overheated
 
 Fusion Cannon:
 Now it's single barrel only, fires from middle
-Won't have charging sparkles from two barrels at the sides anymore
-The projectile has double damage
+Won't have charging sparkle particles from the sides anymore
+Now also deals splash damage to nearby robots when it hits a wall
+Single barrel, but double damage
 Higher stun mult
 
 Concussion Missiles:
