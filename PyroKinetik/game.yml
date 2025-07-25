@@ -49,7 +49,7 @@ Weapons:
     Lifetime: 10
     # DeathSparks: spreadfire death sparks
     Size: .75 # Was 0.5. Increase size to increase area and feel more powerful
-    Spread: 3.7 # 3.3 in inferno and 3.6 in vanilla
+    Spread: 3.8 # 3.3 in inferno and 3.6 in vanilla
     FlashColor: 1, 1, 1, 1
     EnergyUsage: 0.6 # 0.5 in inferno
     IsHoming: true # new in mod
@@ -181,17 +181,23 @@ Ships:
           # - Delay: 0.15 # original
           #   Gunpoints: [ 0, 1 ]
           # 0.1 * 5 + 0.4 = 0.9 total delay 0.9 / 6 = 0.15 which is the original delay
-          - Delay: 0.12 # this used to be 0.1 on inferno
+          - Delay: 0.1
             Gunpoints: [ 0, 1 ]
-          - Delay: 0.12
+          - Delay: 0.1
             Gunpoints: [ 0, 1 ]
-          - Delay: 0.12
+          - Delay: 0.1
             Gunpoints: [ 0, 1 ]
-          - Delay: 0.12
+          - Delay: 0.1
             Gunpoints: [ 0, 1 ]
-          - Delay: 0.12
+          - Delay: 0.1
             Gunpoints: [ 0, 1 ]
-          - Delay: 0.12 # this used to be 0.4 in inferno, overheating burst fire
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: 0.1
+            Gunpoints: [ 0, 1 ]
+          - Delay: .4 # overheat
             Gunpoints: [ 0, 1 ]
       - Weapon: Fusion
         EnergyUsage: 2 # Game was hard coded to subtract 2 cost on charge start
