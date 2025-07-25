@@ -3,5 +3,5 @@ Red hulk higher burst delay
 Red hulk lower HP
 Red hulk brand new stun resist attribute with 0.4
 Class 1 Driller lower Stun Resist
-Cloaked Driller stun resist 0.3
+Cloaked Driller stun resist 0.1
 Fusion Hulk higher fire delay
