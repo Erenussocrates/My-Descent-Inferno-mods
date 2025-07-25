@@ -6,16 +6,16 @@ Ship Stats:
 1.05 damage taken multiplier (takes 5% more damage)
 
 Vulcan Cannon:
-Higher projectile spread
 Now double barrel instead of single barrel
-Higher stun mult
+Higher projectile spread
+EMP rounds that stun robots - very high stun mult
 Max ammo is 15k instead of 10k
 Consumes 1.5x more ammo
 One barrel deals less damage, but if both of them hit, deals more damage than before
 
 Spreadfire Cannon:
-Higher projectile spread
 Now fires homing projectiles
+Higher projectile spread
 Slightly more energy drain
 Slighly lower damage (same damage as vanilla)
 Slightly lower fire rate
