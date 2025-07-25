@@ -81,6 +81,7 @@ Weapons:
     Recoil: 100
     Damage: 120 # 60 in inferno
     Speed: 150
+    SplashRadius: 15 # new in mod
     Piercing: 1
 
   - id: 8
