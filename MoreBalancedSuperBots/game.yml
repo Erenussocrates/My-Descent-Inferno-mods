@@ -14,7 +14,7 @@ Robots:
     Aim: 200 # Make slightly inaccurate
     GetBehind: 1
     AmbushDistance: 80
-    StunResist: 0.3 # new with the mod
+    StunResist: 0.1 # new with the mod
   - id: 15
     Name: Fusion Hulk
     DevName: Miniboss
@@ -65,5 +65,5 @@ Robots:
     AimAngle: 20 # Don't let drillers lead very much for balance reasons
     Aim: 200 # Make slightly inaccurate
     GetBehind: 1
-    StunResist: 0.3 # it was also 0.5 in inferno
+    StunResist: 0.1 # it was also 0.5 in inferno
     AmbushDistance: 80
