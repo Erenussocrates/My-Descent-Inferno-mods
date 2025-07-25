@@ -6,16 +6,19 @@ Ship Stats:
 1.05 damage taken multiplier (takes 5% more damage)
 
 Vulcan Cannon:
-Original spread values
-Higher stun mult (3)
+Higher projectile spread
+Now double barrel instead of single barrel
+Higher stun mult
 Max ammo is 15k instead of 10k
-Consumes slightly more ammo
+Consumes 1.5x more ammo
+One barrel deals less damage, but if both of them hit, deals more damage than before
 
 Spreadfire Cannon:
 Higher projectile spread
 Now fires homing projectiles
 Slightly more energy drain
-Slighly lower damage (still higher than vanilla)
+Slighly lower damage (same damage as vanilla)
+Slightly lower fire rate
 Lower projectile speed
 
 Plasma Cannon:
