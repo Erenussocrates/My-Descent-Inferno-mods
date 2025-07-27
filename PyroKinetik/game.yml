@@ -34,8 +34,8 @@ Weapons:
     
   - id: 12 
     Name: spreadfire
-    FullName: Nano-Spread Cannon
-    HudName: nanospd # spread in original
+    FullName: Nanoflame Cannon
+    HudName: nanoflm # spread in original
     # Behavior: shotgun
     # FireCount: 5
     Behavior: spreadfire
@@ -54,7 +54,7 @@ Weapons:
     Size: .75 # Was 0.5. Increase size to increase area and feel more powerful
     Spread: 3.8 # 3.3 in inferno and 3.6 in vanilla
     FlashColor: 1, 1, 1, 1
-    EnergyUsage: 0.6 # 0.5 in inferno
+    AmmoUsage: 6 #0.5 in inferno # EnergyUsage in inferno
     IsHoming: true # new in mod
     HomingFov: 35 # new in mod
     HomingDistance: 150 # new in mod
@@ -138,6 +138,23 @@ Weapons:
     HomingTurnRate: 300
     StunMult: 2 # new in mod
 
+Powerups:
+  - id: 13
+    Name: Vulcan Cannon
+    Primary: 1
+    Ammo: 2500 # 250 in inferno
+
+  - id: 22
+    Name: Vulcan Ammo
+    IsAmmo: true
+    Ammo: 1250 # 125 in inferno
+    Primary: 1
+    
+  - id: 14
+    Name: Spreadfire
+    Primary: 2
+    Ammo: 1000
+
 Effects:
   Sparks:
     - Name: fusion_charge
@@ -195,9 +212,11 @@ Ships:
           - Delay: 0.05
             Gunpoints: [ 0, 1 ] # 6 in inferno
       - Weapon: Spreadfire
-        EnergyUsage: 0.6 #0.5 in inferno
+        Ammo: 2000 # new in inferno
+        AmmoUsage: 6 #0.5 in inferno # EnergyUsage in inferno
+        AmmoName: Inferno Cartridges # new in inferno
         Firing:
-          - Delay: 0.3 # 0.2 in inferno
+          - Delay: 0.27 # 0.2 in inferno
             Gunpoints: 6 # center gunpoint
       - Weapon: Plasma
         EnergyUsage: 0.5
@@ -249,7 +268,8 @@ Ships:
           - Delay: 0.15
             Gunpoints: 6 # center gunpoint
       - Weapon: Phoenix
-        EnergyUsage: 0.5 # Halve cost
+        EnergyUsage: 5 # Halve cost # 0.5 in inferno
+        AmmoType: 2 # share with spreadfire, new in mod
         Firing:
           - Delay: 0.12
             Gunpoints: [0, 1] 
