@@ -14,9 +14,10 @@ Consumes 1.5x more ammo
 One barrel deals less damage, but if both of them hit, deals more damage than before
 
 Spreadfire Cannon:
-Name changed to Nano-Spread Cannon for the mechanical changes
+Name changed to Nanoflame Cannon for the mechanical changes
 Weapon texture and projectile color also changed
 Now fires homing projectiles
+Now uses a completely different ammo type called Inferno Cartridges
 Higher projectile spread
 Slightly more energy drain
 Slighly lower damage (same damage as vanilla)
