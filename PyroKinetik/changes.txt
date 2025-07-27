@@ -14,6 +14,8 @@ Consumes 1.5x more ammo
 One barrel deals less damage, but if both of them hit, deals more damage than before
 
 Spreadfire Cannon:
+Name changed to Nano-Spread Cannon for the mechanical changes
+Weapon texture and projectile color also changed
 Now fires homing projectiles
 Higher projectile spread
 Slightly more energy drain
@@ -22,7 +24,7 @@ Slightly lower fire rate
 Lower projectile speed
 
 Plasma Cannon:
-Now fires 3 more volleys until it's overheated
+Now fires 2 more volleys until it's overheated
 
 Fusion Cannon:
 Now it's single barrel only, fires from middle
@@ -32,11 +34,13 @@ Single barrel, but double damage
 Higher stun mult
 
 Concussion Missiles:
+Name changed to Double Concussion Missile for the mechanical changes
 Fires 2 per shot
 Higher stun mult (2)
 
 Homing Missiles:
 Max ammo is 16 instead of 12
+Rapid fire rate
 Higher stun mult (2)
 
 Most missiles also have higher rack ammo
