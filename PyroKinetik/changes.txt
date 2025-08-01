@@ -24,9 +24,6 @@ Slighly lower damage (same damage as vanilla)
 Slightly lower fire rate
 Lower projectile speed
 
-Plasma Cannon:
-Now fires 2 more volleys until it's overheated
-
 Fusion Cannon:
 Now it's single barrel only, fires from middle
 Won't have charging sparkle particles from the sides anymore
