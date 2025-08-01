@@ -34,11 +34,12 @@ Higher stun mult
 Concussion Missiles:
 Name changed to Double Concussion Missile for the mechanical changes
 Fires 2 per shot
-Higher stun mult (2)
+Higher stun mult (2.5)
 
 Homing Missiles:
 Max ammo is 16 instead of 12
 Rapid fire rate
+Higher missile speed
 Higher stun mult (2)
 
 Most missiles also have higher rack ammo
