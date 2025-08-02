@@ -9,6 +9,7 @@ Vulcan Cannon:
 Now double barrel instead of single barrel
 Higher projectile spread
 EMP rounds that stun robots - very high stun mult
+Ammo name changed to EMP Vulcan Rounds
 Max ammo is 15k instead of 10k
 Consumes 1.5x more ammo
 One barrel deals less damage, but if both of them hit, deals more damage than before
@@ -38,6 +39,7 @@ Higher stun mult (2.5)
 
 Homing Missiles:
 Max ammo is 16 instead of 12
+Name changed to Homing Salvo Missile for the mechanical changes
 Rapid fire rate
 Higher missile speed
 Higher stun mult (2)
