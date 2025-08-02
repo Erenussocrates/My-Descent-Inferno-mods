@@ -106,7 +106,8 @@ Weapons:
 
   - id: 15
     Name: homing missile
-    HudName: "homing\nmissile"
+    HudName: "homing\nsalvo"
+    FullName: Homing Salvo Missile
     Decal: scorchC
     DecalRadius: 4
     LightRadius: 14
@@ -189,7 +190,7 @@ Ships:
       - Weapon: Vulcan
         AmmoUsage: 15 # 10 in inferno
         Ammo: 15000 #10000 in inferno
-        AmmoName: Vulcan Rounds
+        AmmoName: EMP Vulcan Rounds
         Firing:
           - Delay: 0.05
             Gunpoints: [ 2, 3 ] # 6 in inferno
@@ -276,9 +277,9 @@ Ships:
         Ammo: 16 # 12 in inferno
         RackAmmo: 32 # 20 in inferno
         Firing:
-          - Delay: 0.10 # 0.5 in inferno
+          - Delay: 0.125 # 0.5 in inferno
             Gunpoints: 4
-          - Delay: 0.10 # 0.5 in inferno
+          - Delay: 0.125 # 0.5 in inferno
             Gunpoints: 5
       - Weapon: ProxMine
         Ammo: 12 # Was 10
